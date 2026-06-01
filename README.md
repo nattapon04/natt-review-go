@@ -20,12 +20,12 @@ The skill covers:
 
 | Dimension | What it checks |
 |---|---|
-| **Idiomatic Go** | Error handling, naming, interface design, context propagation |
+| **Idiomatic Go & Formatting** | Error handling, naming, interface design, context propagation, gofmt/goimports, doc comments |
 | **Performance** | Goroutine leaks, unnecessary allocations, mutex contention |
 | **Security** | SQL injection, race conditions, unsafe usage, unvalidated input |
-| **Cross-file impact** | What other files/callers might break from your change |
+| **Change Impact** | What other files/callers might break from your change |
 
-Output is a **structured report**. Claude will then ask which findings you want fixed — nothing is changed without your confirmation.
+The review focuses on **what changed** and **what that change affects** — not a full project scan. Output is a **structured report**. Claude will then ask which findings you want fixed — nothing is changed without your confirmation.
 
 ---
 
@@ -34,7 +34,7 @@ Output is a **structured report**. Claude will then ask which findings you want 
 ### 1. Clone this repo
 
 ```bash
-git clone https://github.com/nattaponnat/natt-review-go.git
+git clone https://github.com/nattapon04/natt-review-go.git
 ```
 
 ### 2. Add to Claude Code settings
