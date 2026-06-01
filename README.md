@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔍 go-review
+# 🔍 natt-go-review
 
 **A Claude Code skill that reviews your Go code like a senior developer**
 
@@ -34,7 +34,7 @@ The review focuses on **what changed** and **what that change affects** — not 
 ### 1. Clone this repo
 
 ```bash
-git clone https://github.com/nattapon04/natt-review-go.git
+git clone https://github.com/nattapon04/natt-go-review.git
 ```
 
 ### 2. Add to Claude Code settings
@@ -44,7 +44,7 @@ Edit `~/.claude/settings.json`:
 ```json
 {
   "skills": [
-    "/path/to/natt-review-go"
+    "/path/to/natt-go-review"
   ]
 }
 ```
@@ -55,7 +55,7 @@ Edit `~/.claude/settings.json`:
 ```json
 {
   "skills": [
-    "C:\\Users\\yourname\\path\\to\\natt-review-go"
+    "C:\\Users\\yourname\\path\\to\\natt-go-review"
   ]
 }
 ```
